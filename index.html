@@ -1,35 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML-Basico-Centrado</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HTML-Basico-Centrado</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <!-- Container -->
+        <div id="container">
+            <!-- HEADER -->
+            <header class="header">
+                <nav class="header__nav">
+                    <a href="index.html" class="header__logo">
+                        <img src="img/logo.svg" alt="LOGO" />
+                    </a>
+                    <!-- Menú Móvil -->
+                    <!-- Icono -->
+                    <input type="checkbox" id="boton">
+                    <label for="boton">
+                        <img class="header__hamburguesa" src="img/iconMenu.svg" alt="Hamburguesa">
+                    </label>
+                    <!-- Desplegable -->
+                    <ul class="header__menu">
+                        <li class="header__item">
+                            <a href="#" class="header__link">Inicio</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Nosotros</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Servicios</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#" class="header__link">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
 
-    <!-- Container -->
-    <div id="container">
-        
-        <!-- HEADER -->
-        <header class="header">
+            <!-- MAIN -->
+            <main class="main">
+                <img src="" alt="" class="main__banner" />
+            </main>
 
-        </header>
-
-        <!-- MAIN -->
-        <main class="main">
-            <img src="" alt="" class="main__banner">
-
-        </main>
-
-        <!-- FOOTER -->
-        <footer class="footer">
-
-        </footer>
-
-    </div>
-
-</body>
+            <!-- FOOTER -->
+            <footer class="footer"></footer>
+        </div>
+    </body>
 </html>
