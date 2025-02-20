@@ -1,0 +1,55 @@
+/* FONTS */
+@font-face {
+    font-family: '';
+    src: url(fonts/.woff2) format('woff2');
+}
+
+/* VARIABLES */
+.root {
+    --color-primary: #000;
+    --color-secondary: #fff;
+}
+
+/* GENERAL */
+html{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: var(--color-primary);
+    background-color: var(--color-secondary);
+}
+
+body{}
+
+#container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-rows: 100px auto auto;
+}
+
+header, main, footer{
+    padding: 1rem
+}
+
+/* HEADER */
+header{}
+
+/* MAIN */
+main{
+
+    &__banner{
+        display: none;
+        @media screen and (min-width: 768px){
+            display: block;
+            height: 500px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
+
+/* FOOTER */
+footer{}
+
